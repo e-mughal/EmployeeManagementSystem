@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\eshanmughal\\source\\repos\\API-EmployeeManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90CD6943-E212-4BE3-A55A-A660D069E8F6}|PracticeAPI\\PracticeAPI.csproj|c:\\users\\eshanmughal\\source\\repos\\api-employeemanagement\\practiceapi\\core\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CD6943-E212-4BE3-A55A-A660D069E8F6}|PracticeAPI\\PracticeAPI.csproj|solutionrelative:practiceapi\\core\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90CD6943-E212-4BE3-A55A-A660D069E8F6}|PracticeAPI\\PracticeAPI.csproj|c:\\users\\eshanmughal\\source\\repos\\api-employeemanagement\\practiceapi\\infrastructure\\data\\employeecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CD6943-E212-4BE3-A55A-A660D069E8F6}|PracticeAPI\\PracticeAPI.csproj|solutionrelative:practiceapi\\infrastructure\\data\\employeecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90CD6943-E212-4BE3-A55A-A660D069E8F6}|PracticeAPI\\PracticeAPI.csproj|c:\\users\\eshanmughal\\source\\repos\\api-employeemanagement\\practiceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{90CD6943-E212-4BE3-A55A-A660D069E8F6}|PracticeAPI\\PracticeAPI.csproj|solutionrelative:practiceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90CD6943-E212-4BE3-A55A-A660D069E8F6}|PracticeAPI\\PracticeAPI.csproj|c:\\users\\eshanmughal\\source\\repos\\api-employeemanagement\\practiceapi\\presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CD6943-E212-4BE3-A55A-A660D069E8F6}|PracticeAPI\\PracticeAPI.csproj|solutionrelative:practiceapi\\presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90CD6943-E212-4BE3-A55A-A660D069E8F6}|PracticeAPI\\PracticeAPI.csproj|c:\\users\\eshanmughal\\source\\repos\\api-employeemanagement\\practiceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CD6943-E212-4BE3-A55A-A660D069E8F6}|PracticeAPI\\PracticeAPI.csproj|solutionrelative:practiceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\eshanmughal\\source\\repos\\API-EmployeeManagement\\PracticeAPI\\Core\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "PracticeAPI\\Core\\Entities\\Department.cs",
+              "ToolTip": "C:\\Users\\eshanmughal\\source\\repos\\API-EmployeeManagement\\PracticeAPI\\Core\\Entities\\Department.cs",
+              "RelativeToolTip": "PracticeAPI\\Core\\Entities\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:36:18.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\eshanmughal\\source\\repos\\API-EmployeeManagement\\PracticeAPI\\Presentation\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PracticeAPI\\Presentation\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\eshanmughal\\source\\repos\\API-EmployeeManagement\\PracticeAPI\\Presentation\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PracticeAPI\\Presentation\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAUAAACgbGZmZmYUwBIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:13:10.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeContext.cs",
+              "DocumentMoniker": "C:\\Users\\eshanmughal\\source\\repos\\API-EmployeeManagement\\PracticeAPI\\Infrastructure\\Data\\EmployeeContext.cs",
+              "RelativeDocumentMoniker": "PracticeAPI\\Infrastructure\\Data\\EmployeeContext.cs",
+              "ToolTip": "C:\\Users\\eshanmughal\\source\\repos\\API-EmployeeManagement\\PracticeAPI\\Infrastructure\\Data\\EmployeeContext.cs",
+              "RelativeToolTip": "PracticeAPI\\Infrastructure\\Data\\EmployeeContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T10:14:27.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\eshanmughal\\source\\repos\\API-EmployeeManagement\\PracticeAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "PracticeAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\eshanmughal\\source\\repos\\API-EmployeeManagement\\PracticeAPI\\appsettings.json",
+              "RelativeToolTip": "PracticeAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-25T10:10:39.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\eshanmughal\\source\\repos\\API-EmployeeManagement\\PracticeAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PracticeAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\eshanmughal\\source\\repos\\API-EmployeeManagement\\PracticeAPI\\Program.cs",
+              "RelativeToolTip": "PracticeAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T10:10:14.709Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
