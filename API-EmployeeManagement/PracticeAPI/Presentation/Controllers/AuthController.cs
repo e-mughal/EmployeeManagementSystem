@@ -134,7 +134,12 @@ namespace EmployeeManagementAPI.Presentation.Controllers
         }
 
         /*
+         * Updates the User in the database
+         * param: user id
+         * param: Auth object
          * 
+         * Takes in the user id and details to update. If the user exists, the user is updated.
+         * Otherwise an error is thrown.
          */
         [HttpPut]
         [Route("{id}")]
@@ -156,6 +161,12 @@ namespace EmployeeManagementAPI.Presentation.Controllers
             return NoContent();
         }
 
+        /*
+         * Deletes the user from the database.
+         * param: user id
+         * 
+         * Delete's user by id, if user exists.
+         */
         [HttpDelete]
         [Route("{id}")]
         public async Task<ActionResult<Auth>> DeleteUser(int id)

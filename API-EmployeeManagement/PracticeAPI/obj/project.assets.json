@@ -4549,11 +4549,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eshanmughal\\source\\repos\\API-EmployeeManagement\\PracticeAPI\\PracticeAPI.csproj",
+      "projectUniqueName": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\API-EmployeeManagement\\PracticeAPI\\PracticeAPI.csproj",
       "projectName": "PracticeAPI",
-      "projectPath": "C:\\Users\\eshanmughal\\source\\repos\\API-EmployeeManagement\\PracticeAPI\\PracticeAPI.csproj",
+      "projectPath": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\API-EmployeeManagement\\PracticeAPI\\PracticeAPI.csproj",
       "packagesPath": "C:\\Users\\eshanmughal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eshanmughal\\source\\repos\\API-EmployeeManagement\\PracticeAPI\\obj\\",
+      "outputPath": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\API-EmployeeManagement\\PracticeAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
