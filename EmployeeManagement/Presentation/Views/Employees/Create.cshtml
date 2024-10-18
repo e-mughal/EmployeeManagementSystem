@@ -1,0 +1,68 @@
+﻿@using EmployeeManagement.Domain.Entities
+@model Employee
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <form id="createForm" asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group" style="padding-bottom: 10px">
+                <label asp-for="Name" style="font-weight: bold;" class="control-label"></label>
+                <input asp-for="Name" class="form-control" placeholder="John Smith" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="padding-bottom: 10px">
+                <label asp-for="Email" style="font-weight: bold" class="control-label"></label>
+                <input asp-for="Email" class="form-control" placeholder="jsmith@gmail.com" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="padding-bottom: 10px">
+                <label asp-for="DateOfBirth" style="font-weight: bold" class="control-label"></label>
+                <input asp-for="DateOfBirth" class="form-control" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="padding-bottom: 10px">
+                <label asp-for="Department" style="font-weight: bold" class="control-label"></label>
+                <select asp-for="Department" class="form-control">
+                    <option value="">-- Select Department --</option>
+                    <option value="Research">Research</option>
+                    <option value="Development">Development</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="HR">HR</option>
+                    <option value="Web Developer">Web Developer</option>
+                </select>
+                <span asp-validation-for="Department" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="padding-top: 10px">
+                <form asp-action="Create">
+                    <button type="submit" class="btn btn-primary front-button swalDefaultSuccess">
+                        Create
+                    </button>
+                </form>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <form class="back-button"asp-action="Index">
+        <button class="btn btn-secondary" type="submit">Back to List</button>
+    </form>
+</div>
+
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- SweetAlert2 -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- Toastr (if you still need it) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

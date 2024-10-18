@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.CurrentUser 's Profile</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .profile-card {
+            margin-top: 50px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            background-color: #fff;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+        }
+
+        .profile-info {
+            margin-top: 20px;
+        }
+
+            .profile-info h2 {
+                margin-bottom: 10px;
+            }
+
+            .profile-info p {
+                margin-bottom: 5px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="profile-card text-center">
+                    <img src="https://cdn-icons-png.freepik.com/512/9706/9706583.png" alt="Profile Picture" class="profile-pic">
+                    <div class="profile-info">
+                        <h2>@ViewBag.CurrentUser</h2>
+                        <p>@ViewBag.UserEmail</p>
+                        <form class="profile-info">
+                            <input class="btn btn-primary" asp-controller="Auth" asp-action="Logout" value="Log Out" type="submit"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies (optional, for completeness) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

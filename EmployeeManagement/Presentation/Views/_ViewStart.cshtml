@@ -1,0 +1,19 @@
+﻿@using EmployeeManagement.Application.Interface;
+@inject IUser _userService
+
+
+@{
+    var fUser = await _userService.GetCurrentUserAsync();
+    var user = fUser.Name;
+    if(user == "admin")
+    {
+        Layout = "_AdminLayout";
+    }
+    else
+    {
+        Layout = "_Layout";
+        ViewBag.CurrentUser = user;
+    }
+
+
+}

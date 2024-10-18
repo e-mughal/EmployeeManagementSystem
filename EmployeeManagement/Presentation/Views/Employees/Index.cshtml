@@ -1,0 +1,135 @@
+﻿@using EmployeeManagement.Domain.Entities
+@model List<Employee>
+
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<html>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row justify-content-between">
+            <div class="col-md-8">
+                <form asp-controller="Employees" asp-action="Index" method="POST" class="form-inline">
+                    <div class="form-group mr-2">
+                        <input type="text" id="searchName" name="searchName" class="form-control" placeholder="Search by name">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+            </div>
+            <div class="col-md-4 text-right">
+                <a asp-action="Create" class="btn btn-primary">
+                    <i class="fas fa-circle-plus"></i> Add Employee
+                </a>
+            </div>
+        </div>
+    </div>
+    <div style="padding-top:15px">
+        <div>
+            <div id="jsGrid"></div>
+        </div>
+    </div>
+</section>
+
+</html>
+
+<script>
+    var userData = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model));
+
+    console.log(userData);
+
+    $("#jsGrid").jsGrid({
+        width: "100%",
+        height: "auto",
+        sorting: true,
+        paging: true,
+        pageSize: 10,
+        autoload: true,
+
+        data: userData,
+
+        fields: [
+            { name: "Id", type: "number", width: 50, align: "left" },
+            { name: "Name", type: "text", width: 150, align: "left" },
+            { name: "Email", type: "text", width: 200, align: "left" },
+            {
+                name: "DateOfBirth", type: "text", width: 100, align: "left",
+                itemTemplate: function (value) {
+                    return $("<div>").text(value.split('T')[0]);
+                }
+            },
+            { name: "Department", type: "text", width: 100, align: "left" },
+            {
+                type: "control",
+                width: 100,
+                modeSwitchButton: false,
+                editButton: false,
+                deleteButton: false,
+                headerTemplate: () => "Actions",
+                itemTemplate: function (value, item) {
+                    var $edit = $("<button>")
+                        .append($('<i>').addClass('fas fa-edit'))
+                        .on("click", function (e) {
+                            window.location.href = '/Employees/Edit/' + item.Id;
+                        });
+
+                    var $details = $("<button>")
+                        .append($('<i>').addClass('fas fa-circle-info'))
+                        .on("click", function (e) {
+                            window.location.href = '/Employees/Details/' + item.Id;
+                        })
+
+                    var $delete = $("<button>")
+                        .append($('<i>').addClass('fas fa-trash-alt'))
+                        .on("click", function (e) {
+                            window.location.href = '/Employees/Delete/' + item.Id;
+                        });
+
+                    return $("<div>").append($edit).append($details).append($delete);
+                }
+            }
+        ]
+    });
+</script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css">
+
+<!-- Font Awesome (for icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<!-- jQuery (required by jsGrid and other libraries) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- jsGrid CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid-theme.min.css" />
+
+<!-- jsGrid JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.js"></script>
+
+<!-- Bootstrap JS (optional, for other functionalities) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+
+@if (TempData["newUser"] != null && (bool)TempData["newUser"])
+{
+    <script>
+        $(function () {
+            var Toast = Swal.mixin({
+                toast: true,
+                position: 'top-end',
+                showConfirmButton: false,
+                timer: 2000
+            });
+
+            Toast.fire({
+                icon: 'success',
+                title: 'Employee has been created!'
+            })
+        });
+    </script>
+    TempData["newUser"] = false;
+}
+
+

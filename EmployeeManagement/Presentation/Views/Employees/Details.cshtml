@@ -1,0 +1,46 @@
+﻿@using EmployeeManagement.Domain.Entities
+@model Employee
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<div class="card">
+    <div class="card-body">
+        
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.DateOfBirth)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.DateOfBirth)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Department)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Department)
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<div class="mt-3">
+    <form>
+        <a class="btn btn-primary front-button" asp-controller="Employees" asp-action="Edit" asp-route-id="@Model.Id" type="submit">Edit</a>
+        <a class="btn btn-secondary back-button" asp-action="Index">Back to List</a>
+    </form>
+</div>

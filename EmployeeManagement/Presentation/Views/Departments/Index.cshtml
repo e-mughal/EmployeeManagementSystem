@@ -1,0 +1,35 @@
+﻿@model List<EmployeeManagement.Domain.Entities.Employee>
+
+@{
+    ViewBag.Title = ViewBag.PageTitle;
+}
+
+<section class="content">
+    <div>
+
+        <div >
+            <div id="jsGrid"></div>
+        </div>
+    </div>
+
+</section>
+
+<script>
+    var employeeData = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model));
+
+    $("#jsGrid").jsGrid({
+        height: "auto",
+        width: "100%",
+        sorting: true,
+        paging: true,
+        pageSize: 10,
+        autoload: true,
+        data: employeeData,
+
+        fields: [
+            { name: "Id", type: "number", width: 50, align: "left" },
+            { name: "Name", type: "text", width: 150, align: "left" },
+            { name: "Email", type: "text", width: 200, align: "left" }
+        ]
+    });
+</script>

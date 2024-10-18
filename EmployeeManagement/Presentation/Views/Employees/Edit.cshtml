@@ -1,0 +1,55 @@
+﻿@using EmployeeManagement.Domain.Entities
+@model Employee
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group" style="padding-bottom: 10px">
+                <label asp-for="Name" style="font-weight: bold" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="padding-bottom: 10px">
+                <label asp-for="Email" style="font-weight: bold" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="padding-bottom: 10px">
+                <label asp-for="DateOfBirth" style="font-weight: bold" class="control-label"></label>
+                <input asp-for="DateOfBirth" class="form-control" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="padding-bottom: 10px">
+                <label asp-for="Department" style="font-weight: bold" class="control-label"></label>
+                <select asp-for="Department" class="form-control">
+                    <option value="">-- Select Department --</option>
+                    <option value="Research">Research</option>
+                    <option value="Development">Development</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="HR">HR</option>
+                    <option value="Web Developer">Web Developer</option>
+                </select>
+                <span asp-validation-for="Department" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input style="margin-top:15px;" type="submit" value="Save" class="btn btn-primary front-button" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <form class="back-button" asp-action="Index">
+        <button class="btn btn-secondary" type="submit">Back to List</button>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
