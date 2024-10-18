@@ -2,8 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using EmployeeManagement.Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc.Razor;
-using EmployeeManagement.Infrastructure.Repositories;
-using EmployeeManagement.Domain.Interface;
 using EmployeeManagement.Application.Service;
 using EmployeeManagement.Application.Interface;
 
@@ -14,11 +12,6 @@ builder.Services.AddDbContext<EmployeeManagementContext>(options =>
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
-builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
-builder.Services.AddScoped<IAuthRepository, AuthRepository>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-
 builder.Services.Configure<RazorViewEngineOptions>(options =>
 {
     options.ViewLocationFormats.Clear();
@@ -26,10 +19,10 @@ builder.Services.Configure<RazorViewEngineOptions>(options =>
     options.ViewLocationFormats.Add("/Presentation/Views/Shared/{0}.cshtml");
 });
 
-// Need to add link to the local api for testing
+// Add local api link for testing
 builder.Services.AddHttpClient("API", client =>
 {
-    client.BaseAddress = new Uri("ADD API LOCALHOST:PORT LINK");
+    client.BaseAddress = new Uri("ADD LOCAL API LINK:PORT");
 });
 
 builder.Services.AddScoped<IEmployee, EmployeeService>(sp =>

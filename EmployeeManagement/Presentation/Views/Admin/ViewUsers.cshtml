@@ -69,16 +69,8 @@
                     var $delete = $("<button>")
                         .append($('<i>').addClass('fas fa-trash-alt'))
                         .on("click", function (e) {
-                            e.preventDefault();
-                            $('#deleteConfirmModal').data('itemId', item.Id); 
-                            $('#deleteConfirmModal').modal('show');
+                            window.location.href = '/Admin/Delete/' + item.Id;
                         });
-
-                    $('#delete-confirm').on('click', function () {
-                        var itemId = $('#deleteConfirmModal').data('itemId');
-                        window.location.href = '/Admin/Delete/' + item.Id;
-                        $('#deleteConfirmModal').modal('hide');
-                    })
 
                     return $("<div>").append($edit).append($delete);
                 }

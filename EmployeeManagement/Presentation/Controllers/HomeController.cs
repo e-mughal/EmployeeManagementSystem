@@ -1,7 +1,6 @@
 using EmployeeManagement.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using EmployeeManagement.Domain.Interface;
 using EmployeeManagement.Application.Interface;
 
 namespace EmployeeManagement.Web.Controllers
@@ -9,14 +8,12 @@ namespace EmployeeManagement.Web.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IUserRepository _userRepository;
         private readonly IAuth _authService;
         private readonly IUser _userService;
 
-        public HomeController(ILogger<HomeController> logger, IUserRepository userRepository,IAuth authService, IUser userService)
+        public HomeController(ILogger<HomeController> logger,IAuth authService, IUser userService)
         {
             _logger = logger;
-            _userRepository = userRepository;
             _authService = authService;
             _userService = userService;
         }

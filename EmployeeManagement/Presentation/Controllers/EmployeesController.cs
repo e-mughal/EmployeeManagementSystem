@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using EmployeeManagement.Infrastructure.Data;
 using EmployeeManagement.Domain.Entities;
-using EmployeeManagement.Domain.Interface;
 using EmployeeManagement.Application.Interface;
 
 

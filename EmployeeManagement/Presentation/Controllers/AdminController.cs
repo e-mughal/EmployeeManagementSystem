@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using EmployeeManagement.Domain.Interface;
 using EmployeeManagement.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;

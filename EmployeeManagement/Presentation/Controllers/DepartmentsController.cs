@@ -1,5 +1,4 @@
-﻿using EmployeeManagement.Domain.Interface;
-using EmployeeManagement.Infrastructure.Data;
+﻿using EmployeeManagement.Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using EmployeeManagement.Application.Interface;

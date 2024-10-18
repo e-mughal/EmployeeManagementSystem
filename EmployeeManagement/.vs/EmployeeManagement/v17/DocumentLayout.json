@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\presentation\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:presentation\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\presentation\\views\\admin\\viewusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:presentation\\views\\admin\\viewusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\presentation\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:presentation\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\presentation\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:presentation\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\presentation\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:presentation\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -17,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\presentation\\views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:presentation\\views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,20 +59,8 @@
       "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:wwwroot\\lib\\jquery\\dist\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\presentation\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:presentation\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\presentation\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:presentation\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\application\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:application\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\presentation\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|solutionrelative:presentation\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{955D56A1-5F32-4BCF-B583-69AE81C8AF91}|EmployeeManagement.csproj|c:\\users\\eshanmughal\\desktop\\gitrepos\\employeemanagementsystem\\employeemanagement\\employeemanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -62,36 +74,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-18T02:44:35.285Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-18T03:27:59.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Views\\Auth\\Index.cshtml",
-              "RelativeDocumentMoniker": "Presentation\\Views\\Auth\\Index.cshtml",
-              "ToolTip": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Views\\Auth\\Index.cshtml",
-              "RelativeToolTip": "Presentation\\Views\\Auth\\Index.cshtml",
-              "ViewState": "AQIAABwAAACwNDMzM7MiwCAAAAAAAAAA",
+              "Title": "ViewUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Views\\Admin\\ViewUsers.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\Views\\Admin\\ViewUsers.cshtml",
+              "ToolTip": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Views\\Admin\\ViewUsers.cshtml",
+              "RelativeToolTip": "Presentation\\Views\\Admin\\ViewUsers.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-18T02:36:35.093Z"
+              "WhenOpened": "2024-10-18T03:09:37.019Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAADIAAABAAAAAAEAqwFkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T03:01:35.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAEUAAAAAzMzMzMwUwAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T02:41:07.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "Presentation\\Views\\Shared\\_AdminLayout.cshtml",
@@ -103,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Presentation\\Views\\Shared\\_Layout.cshtml",
@@ -115,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "jquery.min.js",
               "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
               "RelativeDocumentMoniker": "wwwroot\\lib\\jquery\\dist\\jquery.min.js",
@@ -127,81 +165,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "DepartmentsController.cs",
               "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Controllers\\DepartmentsController.cs",
               "RelativeDocumentMoniker": "Presentation\\Controllers\\DepartmentsController.cs",
               "ToolTip": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Controllers\\DepartmentsController.cs",
               "RelativeToolTip": "Presentation\\Controllers\\DepartmentsController.cs",
-              "ViewState": "AQIAAA4AAACAs5mZmZkNwB8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T22:24:20.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controllers\\EmployeesController.cs",
-              "ToolTip": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "Presentation\\Controllers\\EmployeesController.cs",
-              "ViewState": "AQIAABAAAADAa2ZmZqYswCQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T10:21:37.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAwAAAA",
+              "ViewState": "AQIAABwAAABABQAAAAARwBUAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T09:42:35.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-25T09:42:20.528Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T03:02:47.583Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Presentation\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAEQAAAAA4MzMzMz8vwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T02:41:07.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Views\\Employees\\Index.cshtml",
               "RelativeDocumentMoniker": "Presentation\\Views\\Employees\\Index.cshtml",
               "ToolTip": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Views\\Employees\\Index.cshtml",
               "RelativeToolTip": "Presentation\\Views\\Employees\\Index.cshtml",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAwwHAAAABlAAAA",
+              "ViewState": "AQIAAEIAAABg/v///z8jwE0AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-25T10:29:10.343Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T10:21:37.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-18T02:44:35.285Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Views\\Auth\\Index.cshtml",
+              "RelativeDocumentMoniker": "Presentation\\Views\\Auth\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Presentation\\Views\\Auth\\Index.cshtml",
+              "RelativeToolTip": "Presentation\\Views\\Auth\\Index.cshtml",
+              "ViewState": "AQIAABwAAACwNDMzM7MiwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T02:36:35.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\Application\\Service\\EmployeeService.cs",
               "RelativeDocumentMoniker": "Application\\Service\\EmployeeService.cs",
@@ -213,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "EmployeeManagement.csproj",
               "DocumentMoniker": "C:\\Users\\eshanmughal\\Desktop\\gitrepos\\EmployeeManagementSystem\\EmployeeManagement\\EmployeeManagement.csproj",
               "RelativeDocumentMoniker": "EmployeeManagement.csproj",

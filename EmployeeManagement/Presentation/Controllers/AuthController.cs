@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using EmployeeManagement.Domain.Interface;
 using EmployeeManagement.Domain.Entities;
 using EmployeeManagement.Application.Interface;
 
@@ -7,13 +6,11 @@ namespace EmployeeManagement.Web.Controllers
 {
     public class AuthController : Controller
     {
-        private readonly IUserRepository _userRepository;
         private readonly IAuth _authService;
         private readonly IUser _userService;
 
-        public AuthController(IUserRepository userRepository, IAuth authService, IUser userService)
+        public AuthController(IAuth authService, IUser userService)
         {
-            _userRepository = userRepository;
             _authService = authService;
             _userService = userService; 
         }
